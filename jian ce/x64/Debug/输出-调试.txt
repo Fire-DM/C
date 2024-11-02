@@ -1,0 +1,12 @@
+﻿“jian ce.exe”(Win32): 已加载“D:\Code\C code\jian ce\x64\Debug\jian ce.exe”。已加载符号。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\ntdll.dll”。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\kernel32.dll”。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\KernelBase.dll”。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\vcruntime140d.dll”。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\ucrtbased.dll”。
+线程 11612 已退出，返回值为 0 (0x0)。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\kernel.appcore.dll”。
+“jian ce.exe”(Win32): 已加载“C:\Windows\System32\msvcrt.dll”。
+线程 8624 已退出，返回值为 0 (0x0)。
+线程 16848 已退出，返回值为 0 (0x0)。
+程序“[4972] jian ce.exe”已退出，返回值为 0 (0x0)。
