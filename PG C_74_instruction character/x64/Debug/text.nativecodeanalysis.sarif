@@ -1,0 +1,107 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "analysisTarget": {
+            "uri": "file:///d:/code/c code/pg c_74_instruction character/pg c_74_instruction character/text.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Code/C code/PG C_74_instruction character/PG C_74_instruction character/text.c"
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 2,
+                  "endLine": 30,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “scanf”。"
+          },
+          "analysisTarget": {
+            "uri": "file:///d:/code/c code/pg c_74_instruction character/pg c_74_instruction character/text.c"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Code/C code/PG C_74_instruction character/PG C_74_instruction character/text.c"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 3,
+                  "endLine": 37,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34433.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/code/c code/pg c_74_instruction character/pg c_74_instruction character/text.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "927e1881f808c02965b3a1ffb11a91ae87ef27e436d43da7941bdd6b3871c470"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/code/c code/pg c_74_instruction character/pg c_74_instruction character/function.h"
+          },
+          "hashes": {
+            "sha-256": "67187e5456728eb71fa67a234f4ac2d114c0d1e50384310589e981f3d39176fd"
+          }
+        }
+      ]
+    }
+  ]
+}
