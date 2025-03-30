@@ -1,0 +1,6 @@
+﻿  text.c
+D:\Code\C code\PG_C_Basic_Assessment_96\PG_C_Basic_Assessment_96\text.c(119,13): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code\C code\PG_C_Basic_Assessment_96\PG_C_Basic_Assessment_96\text.c(121,2): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code\C code\PG_C_Basic_Assessment_96\PG_C_Basic_Assessment_96\text.c(122,26): warning C4047: “=”:“char”与“char [2]”的间接级别不同
+D:\Code\C code\PG_C_Basic_Assessment_96\PG_C_Basic_Assessment_96\text.c(125,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  PG_C_Basic_Assessment_96.vcxproj -> D:\Code\C code\PG_C_Basic_Assessment_96\x64\Debug\PG_C_Basic_Assessment_96.exe
