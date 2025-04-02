@@ -1,0 +1,6 @@
+﻿  function.c
+D:\Code\C code\PG_C_pointer_to_an_array_109\PG_C_pointer_to_an_array_109\function.c(20,18): warning C4028: 形参 1 与声明不同
+  text.c
+D:\Code\C code\PG_C_pointer_to_an_array_109\PG_C_pointer_to_an_array_109\text.c(94,2): warning C4013: “calc”未定义；假设外部返回 int
+  正在生成代码...
+  PG_C_pointer_to_an_array_109.vcxproj -> D:\Code\C code\PG_C_pointer_to_an_array_109\Debug\PG_C_pointer_to_an_array_109.exe
