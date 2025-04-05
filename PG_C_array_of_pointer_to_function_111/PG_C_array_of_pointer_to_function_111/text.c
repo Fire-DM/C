@@ -123,7 +123,8 @@
 
 int main()
 {
-	int arr1[] = { 6,5,4,3,2,1 };
+	//int arr1[] = { 6,5,4,3,2,1 };
+	int arr1[] = { 3,6,9,5,7,2,4,6 };
 	//把数组排序成升序
 	int sz = sizeof(arr1) / sizeof(arr1[0]);
 	bubble_sort(arr1, sz);

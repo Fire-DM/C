@@ -75,12 +75,12 @@ void bubble_sort(int* p, int sz)
 				int tmp = p[j + 1];
 				p[j + 1] = p[j];
 				p[j] = tmp;
-				flag = 0;//进行交换则换为0
+				flag = 0;//进行交换则换为0，表示数组无序
 			}
 		}
 		if (flag == 1)
 		{
-			break;
+			break;//数组有序则直接退出
 		}
 	}
 		
