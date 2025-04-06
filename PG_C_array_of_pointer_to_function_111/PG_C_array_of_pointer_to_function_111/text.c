@@ -119,20 +119,72 @@
 //通过函数指针调用的函数
 
 
+//int main()
+//{
+//	int a = 10;
+//	//char* pa = &a;//err
+//	void* pv = &a;//viod*是无具体类型的指针，可以接受任意类型的地址
+//	//void*不能解引用操作，也不能+1-1，需要强制转换类型
+//
+//	return 0;
+//}
+
+
+
 //冒泡排序
+
+//int main()
+//{
+//	//int arr1[] = { 6,5,4,3,2,1 };
+//	int arr1[] = { 3,6,9,5,7,2,4,6 };
+//	//把数组排序成升序
+//	int sz = sizeof(arr1) / sizeof(arr1[0]);
+//	//bubble_sort(arr1, sz);
+//
+//	qsort(arr1, sz, sizeof(arr1[0]), cmp_int);//qsort回调函数
+//	//void qsort(void* base,//被排序数据的起始位置
+////	size_t num,//待排序数据元素个数
+////	size_t size,//待排序数据元素的大小（单位是字节）
+////	int (*cmp)(const void*, const void*));//函数指针——比较函数
+//
+//	//打印
+//	/*int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr1[i]);
+//	}*/
+//
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//
+//	int arr[] = { 5,9,3,6,4,1,23,5,8 };
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	
+//	new_bubble_sort(arr,//待比较元素的起始位置
+//	sz,//待比较元素的个数
+//	sizeof(arr[0]),//待比较元素的大小（单位为字节）
+//	cmp_int);//函数指针，指向比较两个元素大小的函数
+//
+//	//打印
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//
+//	return 0;
+//}
+
+
 
 int main()
 {
-	//int arr1[] = { 6,5,4,3,2,1 };
-	int arr1[] = { 3,6,9,5,7,2,4,6 };
-	//把数组排序成升序
-	int sz = sizeof(arr1) / sizeof(arr1[0]);
-	bubble_sort(arr1, sz);
-	int i = 0;
-	for (i = 0; i < sz; i++)
-	{
-		printf("%d ", arr1[i]);
-	}
+	text_Stu();
 
 	return 0;
 }
