@@ -9,17 +9,17 @@ int cmp_int(const void* e1, const void* e2)
 
 
 //两数交换位置
-void Swep(char* buff1,char* buff2,int width)
+void Swep(char* buf1,char* buf2,int width)
 {
 	int i = 0;
 	for (i = 0; i < width; i++)
 	{
 		//交换字节
-		char tmp = *buff2;
-		*buff2 = *buff1;
-		*buff1 = tmp;
-		*buff1++;
-		*buff2++;
+		char tmp = *buf2;
+		*buf2 = *buf1;
+		*buf1 = tmp;
+		*buf1++;
+		*buf2++;
 	}
 
 }
