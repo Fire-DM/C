@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "PG_C_114_WrittenExamQuestions_explanations\\text.c",
               "ToolTip": "D:\\Code\\C code\\PG_C_114_WrittenExamQuestions_explanations\\PG_C_114_WrittenExamQuestions_explanations\\text.c",
               "RelativeToolTip": "PG_C_114_WrittenExamQuestions_explanations\\text.c",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-06T12:34:45.311Z",
               "IsPinned": true,
@@ -56,7 +56,8 @@
               "RelativeToolTip": "PG_C_114_WrittenExamQuestions_explanations\\function.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-06T12:35:42.162Z"
+              "WhenOpened": "2025-04-06T12:35:42.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

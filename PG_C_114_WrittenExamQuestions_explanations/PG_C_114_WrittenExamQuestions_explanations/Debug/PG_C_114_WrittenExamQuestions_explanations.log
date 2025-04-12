@@ -1,0 +1,6 @@
+﻿  function.c
+D:\Code\C code\PG_C_114_WrittenExamQuestions_explanations\PG_C_114_WrittenExamQuestions_explanations\function.c(5,25): warning C4028: 形参 1 与声明不同
+D:\Code\C code\PG_C_114_WrittenExamQuestions_explanations\PG_C_114_WrittenExamQuestions_explanations\function.c(5,41): warning C4028: 形参 2 与声明不同
+  text.c
+  正在生成代码...
+  PG_C_114_WrittenExamQuestions_explanations.vcxproj -> D:\Code\C code\PG_C_114_WrittenExamQuestions_explanations\Debug\PG_C_114_WrittenExamQuestions_explanations.exe
