@@ -39,3 +39,10 @@ char* __cdecl ano_strncpy(
     const char* back,
     size_t count
 );
+
+
+//写一个函数，实现strncmp的功能
+int my_strncmp(const char* dest, const char* src, size_t num);
+
+//写一个函数，实现strstr的功能
+char* my_strstr(char* str1, char* str2);

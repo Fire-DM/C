@@ -134,8 +134,13 @@ int  my_strcmp(const char* str1,const char*  str2)
 }
 
 
+
 //写一个函数，实现strncpy的功能
-char* my_strncpy(char* dest, const char* src, size_t num)
+char* my_strncpy(
+	char* dest,
+	const char* src, 
+	size_t num
+)
 {
 	//int n = 0;
 	assert(dest && src);
@@ -168,12 +173,15 @@ char* my_strncpy(char* dest, const char* src, size_t num)
 
 
 
+
+
 //写一个函数，实现strncat的功能
 //不能自己追加自己
 char* my_strncat(
 	char* dest,
 	const char* src,
-	size_t num)
+	size_t num
+)
 {
 	char* start = dest;
 	//找到目标字符串dest的\0的地址
@@ -213,11 +221,13 @@ char* my_strncat(
 }
 
 
+
+
 //strncpy——库函数写法
 char* __cdecl ano_strncpy(
-    char* front,
-    const char* back,
-    size_t count
+		char* front,
+		const char* back,
+		size_t count
 )
 {
     char* start = front;
@@ -230,4 +240,53 @@ char* __cdecl ano_strncpy(
             *front++ = '\0';
 
     return (start);
+}
+
+
+
+
+//写一个函数，实现strncmp的功能
+int my_strncmp(const char* dest, const char* src, size_t num)
+{
+	assert(dest && src);
+	while (num--)//最多循环num次
+		if (*dest++ != *src++)		//找到第一次不相等，返回它们的差值
+			return (*--dest - *--src);
+
+	return 0;		//如果字符都相同，返回0
+}
+
+
+
+//写一个函数，实现strstr的功能
+char* my_strstr(
+		const char* str1, 
+		const char* str2
+)
+{
+	//多次匹配才能找到
+	//abbbc -> str1
+	//bbc -> str2
+
+	assert(str1, str2);
+	//不适合改变str1和str2的值
+	const char* s1 = str1;
+	const char* s2 = str2;
+	const char* tmp = str1;
+
+	while (*tmp)
+	{
+		s1 = tmp;//用str1的每一位去和str2比较
+		s2 = str2;//重置s2
+		while (*s1 !='\0' && *s2 != '\0' && *s1++ == *s2++)
+		{
+			if (*s2 == '\0')
+				return (char*)tmp;
+		}
+		
+		tmp++;
+	}
+
+	//没有子串就返回空指针
+	return NULL;
 }

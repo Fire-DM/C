@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "PG_C_123_StringFunction\\text.c",
               "ToolTip": "D:\\Code\\C code\\PG_C_123_StringFunction\\PG_C_123_StringFunction\\text.c",
               "RelativeToolTip": "PG_C_123_StringFunction\\text.c",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAcwMAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAcwOEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-15T06:09:17.861Z",
               "IsPinned": true,
@@ -54,7 +54,7 @@
               "RelativeDocumentMoniker": "PG_C_123_StringFunction\\function.c",
               "ToolTip": "D:\\Code\\C code\\PG_C_123_StringFunction\\PG_C_123_StringFunction\\function.c",
               "RelativeToolTip": "PG_C_123_StringFunction\\function.c",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAcwLYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAMwBoBAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-15T06:09:33.14Z",
               "EditorCaption": ""
@@ -67,9 +67,10 @@
               "RelativeDocumentMoniker": "PG_C_123_StringFunction\\head.h",
               "ToolTip": "D:\\Code\\C code\\PG_C_123_StringFunction\\PG_C_123_StringFunction\\head.h",
               "RelativeToolTip": "PG_C_123_StringFunction\\head.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-15T06:09:55.086Z"
+              "WhenOpened": "2025-04-15T06:09:55.086Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -180,20 +180,51 @@
 //}
 
 
+//写一个函数，实现strncmp的功能
+
+
+//int main()
+//{
+//	char arr1[20] = "abcdef";
+//	char arr2[] = "abcdef";
+//
+//	//int ret = strncmp(arr1, arr2, 5);
+//
+//	
+//	int ret = my_strncmp(arr1, arr2, 5);
+//
+//	if (ret == 0)
+//		printf("==\n");
+//	else if(ret > 0)
+//		printf(">\n");
+//	else
+//		printf("<\n");
+//
+//	return 0;
+//}
+
+
+
+//
+//查找子串  strstr
+//
 
 int main()
 {
-	char arr1[20] = "abcd";//用于验证
-	char arr2[] = "abcdef";
+	//char str1[] = "mihoyo's games:genshin,hongkai:star rail";
+	//char str2[] = "star";
+	char str1[] = "abbbcde";
+	char str2[] = "bbc";
 
-	int ret = strncmp(arr1, arr2, 5);
+	//char* ret = strstr(str1, str2);
 
-	if (ret == 0)
-		printf("==\n");
-	else if(ret > 0)
-		printf(">\n");
+	//写一个函数，实现strstr的功能
+	char* ret = my_strstr(str1, str2);
+
+	if (ret == NULL)
+		printf("子串不存在");
 	else
-		printf("<\n");
+		printf("%s\n", ret);
 
 	return 0;
 }

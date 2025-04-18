@@ -1,0 +1,5 @@
+﻿  function.c
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\function.c(24,8): warning C4090: “初始化”: 不同的“const”限定符
+  text.c
+  正在生成代码...
+  PG_C_123_StringFunction.vcxproj -> D:\Code\C code\PG_C_123_StringFunction\Debug\PG_C_123_StringFunction.exe
