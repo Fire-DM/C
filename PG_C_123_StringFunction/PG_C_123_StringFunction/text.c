@@ -209,22 +209,32 @@
 //查找子串  strstr
 //
 
+//int main()
+//{
+//	//char str1[] = "mihoyo's games:genshin,hongkai:star rail";
+//	//char str2[] = "star";
+//	char str1[] = "abbbcde";
+//	char str2[] = "bbc";
+//
+//	//char* ret = strstr(str1, str2);
+//
+//	//写一个函数，实现strstr的功能
+//	char* ret = my_strstr(str1, str2);
+//
+//	if (ret == NULL)
+//		printf("子串不存在");
+//	else
+//		printf("%s\n", ret);
+//
+//	return 0;
+//}
+
+
+
 int main()
 {
-	//char str1[] = "mihoyo's games:genshin,hongkai:star rail";
-	//char str2[] = "star";
-	char str1[] = "abbbcde";
-	char str2[] = "bbc";
+	char str1[] = "abcdef";
 
-	//char* ret = strstr(str1, str2);
-
-	//写一个函数，实现strstr的功能
-	char* ret = my_strstr(str1, str2);
-
-	if (ret == NULL)
-		printf("子串不存在");
-	else
-		printf("%s\n", ret);
 
 	return 0;
 }
