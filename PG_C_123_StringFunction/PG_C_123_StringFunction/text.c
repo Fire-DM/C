@@ -230,11 +230,121 @@
 //}
 
 
+//strtok
+//char * strtok ( char * str, const char * delimiters )
+//切割字符串,会改变原来的字符串，将被处理字符串的分隔符标记换成\0
+// 一般用于临时拷贝的字符串
+// str包含了0或者多个分隔符分割的标记,不为NULL时，strtok会找到str第一个标记，并保存它的位置
+//为NULL时，函数将在同一个字符串被保存的位置开始，查找下一个标记
+//字符串不存在标记，则返回NULL
+
+
+//int main()
+//{
+//	char* sep = "@.";
+//	char email[] = "caicai.caicai@www@abcde.com";
+//	char cp[100] = { 0 };//初始化字符串内容为0时，数组的大小为固定值
+//	strcpy(cp, email);
+//	
+//	
+//	//代码繁杂
+//	/*char* ret = strtok(cp, sep);
+//	if (ret != NULL)
+//		printf("%s\n", ret);
+//
+//	ret = strtok(NULL, sep);
+//	if (ret != NULL)
+//		printf("%s\n", ret);
+//
+//	ret = strtok(NULL, sep);
+//	if (ret != NULL)
+//		printf("%s\n", ret);
+//
+//	ret = strtok(NULL, sep);
+//	if (ret != NULL)
+//	printf("%s\n", ret);*/
+//
+//	char* ret = NULL;
+//	for (ret = strtok(cp, sep);
+//		ret != NULL;
+//		ret = strtok(NULL, sep))
+//	{
+//		printf("%s\n", ret);
+//	}
+//
+//	return 0;
+//}
+
+
+
+//c语言中的库函数，在执行失败时，都会设置错误码
+// 0 1 2 3 4 5 6 7 8
+
+//
+//strerror
+//返回错误码，所对应的错误信息
+
+
+//int main()
+//{
+//	//printf("%s\n", strerror(0)); //No error
+//	//printf("%s\n", strerror(1));//Operation not permitted
+//	//printf("%s\n", strerror(2));//No such file or directory
+//	//printf("%s\n", strerror(3));//No such process
+//	//printf("%s\n", strerror(4));//Interrupted function call
+//	//printf("%s\n", strerror(5));//
+//
+//
+//	//errno  - 语言设置的一个全局的错误码存放的变量
+//  //FILE* pf = fopen("字符分类函数.jpg", "r");
+//	FILE* pf = fopen("test.txt","r");//这里是相对路径
+//	//打开成功，返回有效地址；失败，返回一个空指针
+//	if (pf == NULL)
+//	{
+//		printf("%s\n", strerror(errno));//
+//		return 1;
+//	}
+//	else
+//	{
+//		;
+//	}
+//	return 0;
+//}
+
+
+//库函数-用于统一代码
+//字符分类 字符转换
+//
+
+
+//int main()
+//{
+//	//int a = isspace(' ');//不是空白字符，返回0；其他返回非0
+//	//printf("%d\n", a);
+//
+//	//int a = isdigit('2');//不是十进制数字，返回0；其他返回非0
+//	//printf("%d\n", a);
+//
+//	//只能用于单个字符，非字母和原本就是大/小写不处理
+//	printf("%c\n", tolower('A'));//大写变小写
+//	printf("%c\n", toupper('a'));//小写变大写
+//
+//	return 0;
+//}
+
+
+
+
+//
+//memcpy
+//
 
 int main()
 {
-	char str1[] = "abcdef";
+
 
 
 	return 0;
 }
+
+

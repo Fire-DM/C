@@ -1,2 +1,6 @@
 ﻿  text.c
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,25): warning C4047: “函数”:“int”与“char [5]”的间接级别不同
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,25): warning C4024: “tolower”: 形参和实参 1 的类型不同
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,9): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
   PG_C_123_StringFunction.vcxproj -> D:\Code\C code\PG_C_123_StringFunction\x64\Debug\PG_C_123_StringFunction.exe

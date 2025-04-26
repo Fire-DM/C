@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+#include <ctype.h>
 
 
 //写一个函数，实现strlen的功能
@@ -46,3 +47,9 @@ int my_strncmp(const char* dest, const char* src, size_t num);
 
 //写一个函数，实现strstr的功能
 char* my_strstr(char* str1, char* str2);
+
+
+//kmp算法
+void computeLPSArray(char* pattern, int M, int* lps);
+void KMPSearch(char* pattern, char* text, int M);
+
