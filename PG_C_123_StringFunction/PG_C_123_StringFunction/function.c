@@ -353,3 +353,23 @@ char* my_strstr(
 //		}
 //	}
 //}
+
+
+
+//实现memcpy的功能，将一组数据复制到另一组数据中
+void* my_memcpy(void* dest,
+	const void* src,
+	size_t num )
+{
+	assert(dest && src);
+	void* ret = dest;
+	while (num--)
+	{
+		//void*类型的数据不能直接解引用
+		//复制每一个字节
+		*((char*)dest)++ = *((char*)src)++;
+	}
+	return ret;
+}
+
+

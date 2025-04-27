@@ -336,15 +336,30 @@
 
 
 //
-//memcpy
+//内存拷贝 memcpy
+// 拷贝两块空间的任何数据
 //
 
-int main()
-{
+//int main()
+//{
+//	int arr1[] = { 1,2,3,4,5,6,7 };
+//	int arr2[10] = { 0 };
+//
+//	size_t sz = sizeof(arr1)/sizeof(arr1[0]);
+//	//memcpy(arr2, arr1, sizeof(arr1));
+//	my_memcpy(arr2, arr1, sizeof(arr1));
+//
+//	int i = 0;
+//	while (i<sz)
+//	{
+//		printf("%d\n", arr2[i]);
+//		i++;
+//	}
+//
+//	return 0;
+//}
 
 
 
-	return 0;
-}
 
 

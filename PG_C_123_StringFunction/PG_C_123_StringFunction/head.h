@@ -50,6 +50,12 @@ char* my_strstr(char* str1, char* str2);
 
 
 //kmp算法
-void computeLPSArray(char* pattern, int M, int* lps);
-void KMPSearch(char* pattern, char* text, int M);
+//void computeLPSArray(char* pattern, int M, int* lps);
+//void KMPSearch(char* pattern, char* text, int M);
+
+
+//实现memcpy的功能，将一组数据复制到另一组数据中
+void* my_memcpy(void* dest,
+    const void* src,
+    size_t num);
 

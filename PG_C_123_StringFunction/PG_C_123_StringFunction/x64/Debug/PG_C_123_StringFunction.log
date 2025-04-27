@@ -1,6 +1,7 @@
-﻿  text.c
-D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,25): warning C4047: “函数”:“int”与“char [5]”的间接级别不同
-D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,25): warning C4024: “tolower”: 形参和实参 1 的类型不同
-D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
-D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\text.c(329,9): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+﻿  function.c
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\function.c(25,8): warning C4090: “初始化”: 不同的“const”限定符
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\function.c(263,15): warning C4028: 形参 1 与声明不同
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\function.c(264,15): warning C4028: 形参 2 与声明不同
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\function.c(271,2): warning C4002: 类函数宏的调用“assert”参数过多
+D:\Code\C code\PG_C_123_StringFunction\PG_C_123_StringFunction\function.c(172,1): warning C4716: “my_strncpy”: 必须返回一个值
   PG_C_123_StringFunction.vcxproj -> D:\Code\C code\PG_C_123_StringFunction\x64\Debug\PG_C_123_StringFunction.exe
