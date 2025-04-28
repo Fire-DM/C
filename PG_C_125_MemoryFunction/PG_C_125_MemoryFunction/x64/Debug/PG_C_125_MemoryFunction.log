@@ -1,0 +1,4 @@
+﻿  function.c
+D:\Code\C code\PG_C_125_MemoryFunction\PG_C_125_MemoryFunction\function.c(22,8): warning C4047: “=”:“void *”与“int”的间接级别不同
+D:\Code\C code\PG_C_125_MemoryFunction\PG_C_125_MemoryFunction\function.c(23,7): warning C4047: “=”:“const void *”与“int”的间接级别不同
+  PG_C_125_MemoryFunction.vcxproj -> D:\Code\C code\PG_C_125_MemoryFunction\x64\Debug\PG_C_125_MemoryFunction.exe
