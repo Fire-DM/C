@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -32,22 +32,9 @@
               "RelativeDocumentMoniker": "PG_C_127_homework\\test.c",
               "ToolTip": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\test.c",
               "RelativeToolTip": "PG_C_127_homework\\test.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAMwBQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-29T01:26:30.148Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "function.c",
-              "DocumentMoniker": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\function.c",
-              "RelativeDocumentMoniker": "PG_C_127_homework\\function.c",
-              "ToolTip": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\function.c",
-              "RelativeToolTip": "PG_C_127_homework\\function.c",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwDgAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-29T01:27:03.036Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -61,13 +48,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "function.c",
+              "DocumentMoniker": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\function.c",
+              "RelativeDocumentMoniker": "PG_C_127_homework\\function.c",
+              "ToolTip": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\function.c",
+              "RelativeToolTip": "PG_C_127_homework\\function.c",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAWwHcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-29T01:27:03.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "head.h",
               "DocumentMoniker": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\head.h",
               "RelativeDocumentMoniker": "PG_C_127_homework\\head.h",
               "ToolTip": "D:\\Code\\C code\\PG_C_127_homework\\PG_C_127_homework\\head.h",
               "RelativeToolTip": "PG_C_127_homework\\head.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-29T01:25:23.343Z"
             }
