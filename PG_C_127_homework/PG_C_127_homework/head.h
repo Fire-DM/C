@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
+#include <math.h>
 
 struct Peo
 {
@@ -26,7 +27,7 @@ int struct_name_cmp(const void*, const void* );
 //判断整型数据是否为0，是返回1，不是返回0
 int is_end_int(const void* p);
 
-//合并两个有序序列，首元素不能为0
+//合并两个有序序列，它们必须都是正序
 void merge_sorted_arrays(const void* sep1,
 	const void* sep2,
 	void* result,
@@ -35,4 +36,11 @@ void merge_sorted_arrays(const void* sep1,
 	int (*cmp)(const void*,const void*),
 	int (*is_end)(const void*));
 
+
+//小乐乐改数字
+int num(int n);
+
+
+//计算num的n次方
+int my_sqrt(int num, int n);
 

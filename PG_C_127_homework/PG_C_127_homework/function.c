@@ -67,7 +67,7 @@ int is_end_int(const void* p)
 }
 
 
-//合并两个有序序列，首元素不能为0
+//合并两个有序序列，它们必须都是正序
 void merge_sorted_arrays(const void* sep1,
 	const void* sep2,
 	void* result,
@@ -129,4 +129,39 @@ void merge_sorted_arrays(const void* sep1,
 		}
 		num -= el_sz;
 	}
+}
+
+
+//计算num的n次方
+int my_sqrt(int num, int n)
+{
+	int ret = 1;
+	while (n)
+	{
+		ret *= num;
+		n--;
+	}
+	return ret;
+}
+
+
+
+
+//小乐乐改数字
+int c = -1;
+int num(int n)
+{
+	//n为0就直接返回
+	if (n == 0)
+		return 0;
+
+	c++;
+	//奇数
+	if ((n % 10) % 2)
+	{
+		return  my_sqrt(10, c) + num(n / 10);
+	}
+
+	//偶数
+	return 0 + num(n / 10);
 }
