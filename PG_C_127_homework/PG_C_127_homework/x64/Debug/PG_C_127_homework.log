@@ -1,5 +1,12 @@
-﻿  function.c
-D:\Code\C code\PG_C_127_homework\PG_C_127_homework\function.c(39,35): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
-  test.c
-  正在生成代码...
+﻿  test.c
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 1 冲突
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int *”
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 2 冲突
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 3 拥有了类型“int *”
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 3 冲突
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“int *”
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 4 冲突
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 5 拥有了类型“int *”
+D:\Code\C code\PG_C_127_homework\PG_C_127_homework\test.c(167,16): warning C4313: "printf": 格式字符串中的 "%d" 与类型为 "int *" 的参数 5 冲突
   PG_C_127_homework.vcxproj -> D:\Code\C code\PG_C_127_homework\x64\Debug\PG_C_127_homework.exe

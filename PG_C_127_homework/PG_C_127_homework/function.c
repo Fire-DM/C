@@ -133,7 +133,7 @@ void merge_sorted_arrays(const void* sep1,
 
 
 //计算num的n次方
-int my_sqrt(int num, int n)
+int my_pow(int num, int n)
 {
 	int ret = 1;
 	while (n)
@@ -148,8 +148,9 @@ int my_sqrt(int num, int n)
 
 
 //小乐乐改数字
+//递归recursion
 int c = -1;
-int num(int n)
+int num_cag(int n)
 {
 	//n为0就直接返回
 	if (n == 0)
@@ -159,9 +160,31 @@ int num(int n)
 	//奇数
 	if ((n % 10) % 2)
 	{
-		return  my_sqrt(10, c) + num(n / 10);
+		return  my_pow(10, c) + num_cag(n / 10);
 	}
 
 	//偶数
-	return 0 + num(n / 10);
+	return 0 + num_cag(n / 10);
 }
+
+//循环/迭代 loop/interation
+int num_cag_2(int n)
+{
+	int i = 0;
+	int sum = 0;
+	while (n)
+	{
+		int bit = 0;			//假设数字为偶数
+		//奇数
+		if (n % 10 % 2)
+		{
+			bit = 1;
+		}
+
+		sum += bit * pow(10, i++);
+		n /= 10;
+	}
+
+	return sum;
+}
+

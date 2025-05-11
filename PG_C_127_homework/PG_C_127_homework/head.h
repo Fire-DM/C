@@ -14,19 +14,15 @@ struct Peo
 
 //仿照strncat写的内存追加的函数
 void* my_memcat(void* , void* , size_t);
-
 //比较两个int类型数据的大小
 int int_cmp(const void* , const void* );
-
 //比较两个char类型数据的大小
 int char_cmp(const void* , const void* );
-
 //比较两个结构体类型数据的大小，以姓名举例
 int struct_name_cmp(const void*, const void* );
 
 //判断整型数据是否为0，是返回1，不是返回0
 int is_end_int(const void* p);
-
 //合并两个有序序列，它们必须都是正序
 void merge_sorted_arrays(const void* sep1,
 	const void* sep2,
@@ -37,10 +33,10 @@ void merge_sorted_arrays(const void* sep1,
 	int (*is_end)(const void*));
 
 
-//小乐乐改数字
-int num(int n);
-
-
+//小乐乐改数字_递归
+int num_cag(int n);
+//小乐乐改数字_迭代/循环
+int num_cag_2(int n);
 //计算num的n次方
-int my_sqrt(int num, int n);
+int my_pow(int num, int n);
 
