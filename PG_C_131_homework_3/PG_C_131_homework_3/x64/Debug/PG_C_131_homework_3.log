@@ -1,0 +1,4 @@
+﻿  function.c
+D:\Code\C code\PG_C_131_homework_3\PG_C_131_homework_3\function.c(10,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\Code\C code\PG_C_131_homework_3\PG_C_131_homework_3\function.c(93,27): warning C4028: 形参 1 与声明不同
+  PG_C_131_homework_3.vcxproj -> D:\Code\C code\PG_C_131_homework_3\x64\Debug\PG_C_131_homework_3.exe
