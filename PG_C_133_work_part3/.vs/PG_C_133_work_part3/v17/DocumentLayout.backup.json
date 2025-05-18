@@ -30,9 +30,9 @@
               "Title": "text.c",
               "DocumentMoniker": "D:\\Code\\C code\\PG_C_133_work_part3\\PG_C_133_work_part3\\text.c",
               "RelativeDocumentMoniker": "PG_C_133_work_part3\\text.c",
-              "ToolTip": "D:\\Code\\C code\\PG_C_133_work_part3\\PG_C_133_work_part3\\text.c",
-              "RelativeToolTip": "PG_C_133_work_part3\\text.c",
-              "ViewState": "AgIAAKoAAAAAAAAAAAAcwMgAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\Code\\C code\\PG_C_133_work_part3\\PG_C_133_work_part3\\text.c*",
+              "RelativeToolTip": "PG_C_133_work_part3\\text.c*",
+              "ViewState": "AgIAANQAAAAAAAAAAAAcwOQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-14T07:58:04.583Z",
               "IsPinned": true,
@@ -54,9 +54,10 @@
               "RelativeDocumentMoniker": "PG_C_133_work_part3\\function.c",
               "ToolTip": "D:\\Code\\C code\\PG_C_133_work_part3\\PG_C_133_work_part3\\function.c",
               "RelativeToolTip": "PG_C_133_work_part3\\function.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-14T07:58:13.206Z"
+              "WhenOpened": "2025-05-14T07:58:13.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,7 +67,7 @@
               "RelativeDocumentMoniker": "PG_C_133_work_part3\\head.h",
               "ToolTip": "D:\\Code\\C code\\PG_C_133_work_part3\\PG_C_133_work_part3\\head.h",
               "RelativeToolTip": "PG_C_133_work_part3\\head.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-14T07:58:23.45Z",
               "EditorCaption": ""

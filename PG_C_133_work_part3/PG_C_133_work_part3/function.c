@@ -8,12 +8,24 @@ int int_cmp(const void* sep1, const void* sep2)
 }
 
 
-//数据排序
-void my_qsort(void* base,
-	size_t num,
-	size_t size,
-	int (*cmp)(const void*, const void*))
+//判断是不是有序数列
+int is_sorted(int* p,int n)
 {
-	;
-}
+	int flag1 = 0;//升序
+	int flag2 = 0;//降序
+	while (--n)
+	{
+		if (*p > *(p + 1))//降序
+			flag2 = 1;
+		else if (*p < *(p + 1))//升序
+			flag1 = 1;
+		else
+			;
 
+		p++;
+	}
+		
+	//0或1表示有序
+	//2表示无序
+	return flag1 + flag2;
+}
